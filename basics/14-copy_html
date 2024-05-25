@@ -1,2 +1,2 @@
 #!/ban/bash
-find . -maxdepth 1 -name "*.html" -exec cp -ru {} .. \;
+cp -u *.html ..
