@@ -1,2 +1,3 @@
 #!/bin/bash
-cd "$OLDPWD" || exit 1
+current_dir=$(pwd)
+cd "$OLDPWD"
